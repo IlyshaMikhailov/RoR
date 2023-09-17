@@ -5,6 +5,7 @@ class RaspberryBush
         @raspberries = []
         raspberries_count.times do |n|
             @raspberries<<Raspberry.new(n)
+        end
     end
 
     def grow_all! 
